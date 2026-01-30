@@ -1,0 +1,14 @@
+[green_agent]
+agentbeats_id = "019bc61d-4444-7751-8685-72befcd0336d"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
+
+[[participants]]
+agentbeats_id = "019c1052-e485-76c3-81ba-1af84be69b4a"
+name = "analyst"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
+
+[config]
+# Determine which year to evaluate
+year = "2020"
+
+# trigger
