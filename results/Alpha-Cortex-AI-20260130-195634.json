@@ -1,0 +1,47 @@
+{
+  "participants": {
+    "analyst": "019c1052-e485-76c3-81ba-1af84be69b4a"
+  },
+  "results": [
+    {
+      "overall_score": 42.0,
+      "task_results": {
+        "business_summary": {
+          "task": "business_summary",
+          "score": 100.0,
+          "summary_quality": 1.0,
+          "key_elements_found": {
+            "industry": true,
+            "products": true,
+            "geography": true
+          },
+          "feedback": "Business summary elements: 3/3\n\u2713 industry: Clinical-stage biopharmaceutical industry, specifi...\n\u2713 products: The company's main products are drug candidates ba...\n\u2713 geography: The business description does not specify geograph..."
+        },
+        "consistency_check": {
+          "task": "consistency_check",
+          "score": 40.0,
+          "risks_mentioned_in_1a": [
+            "Clinical-stage company with no history of generating commercial revenue or profitability",
+            "No FDA-approved or commercialized products",
+            "Dependence on success of drug product candidates, primarily one in clinical trials",
+            "Need for substantial additional funding and capital",
+            "Risk of failure in research, development, or clinical trials"
+          ],
+          "risks_discussed_in_7": [
+            "need for substantial additional funding and capital",
+            "clinical-stage company with no history of generating commercial revenue or profitability"
+          ],
+          "consistency_rate": 0.4,
+          "missing_discussions": [],
+          "feedback": "Consistency check: 2/5 risks correctly identified as discussed\nRisks in 1A: ['Clinical-stage company with no history of generating commercial revenue or profitability', 'No FDA-approved or commercialized products', 'Dependence on success of drug product candidates, primarily one in clinical trials', 'Need for substantial additional funding and capital', 'Risk of failure in research, development, or clinical trials']\nDiscussed in 7: ['need for substantial additional funding and capital', 'clinical-stage company with no history of generating commercial revenue or profitability']"
+        }
+      },
+      "task_scores": {
+        "risk_classification": 0.0,
+        "business_summary": 100.0,
+        "consistency_check": 40.0
+      },
+      "feedback": "Multi-Task Evaluation Complete\n\nOverall Score: 42.0/100\n\nTask Scores:\n- Risk Classification: 0.0/100 (weight: 40%)\n- Business Summary: 100.0/100 (weight: 30%)\n- Consistency Check: 40.0/100 (weight: 30%)\n"
+    }
+  ]
+}
