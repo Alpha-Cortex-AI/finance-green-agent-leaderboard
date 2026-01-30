@@ -1,0 +1,49 @@
+{
+  "participants": {
+    "analyst": "019c1052-e485-76c3-81ba-1af84be69b4a"
+  },
+  "results": [
+    {
+      "overall_score": 54.0,
+      "task_results": {
+        "business_summary": {
+          "task": "business_summary",
+          "score": 100.0,
+          "summary_quality": 1.0,
+          "key_elements_found": {
+            "industry": true,
+            "products": true,
+            "geography": true
+          },
+          "feedback": "Business summary elements: 3/3\n\u2713 industry: The Scotts Miracle-Gro Company operates primarily ...\n\u2713 products: The company's main products and services are organ...\n\u2713 geography: The company primarily serves geographic markets in..."
+        },
+        "consistency_check": {
+          "task": "consistency_check",
+          "score": 80.0,
+          "risks_mentioned_in_1a": [
+            "Compliance with environmental and public health regulations",
+            "Changes in regulations or regulatory enforcement priorities",
+            "Inability to obtain or maintain pesticide product registrations",
+            "Cancellation of product registrations",
+            "Regulatory restrictions on marketing and selling consumer pesticide products"
+          ],
+          "risks_discussed_in_7": [
+            "changes in regulations or regulatory enforcement priorities",
+            "compliance with environmental and public health regulations",
+            "cancellation of product registrations",
+            "inability to obtain or maintain pesticide product registrations"
+          ],
+          "consistency_rate": 0.8,
+          "missing_discussions": [],
+          "feedback": "Consistency check: 4/5 risks correctly identified as discussed\nRisks in 1A: ['Compliance with environmental and public health regulations', 'Changes in regulations or regulatory enforcement priorities', 'Inability to obtain or maintain pesticide product registrations', 'Cancellation of product registrations', 'Regulatory restrictions on marketing and selling consumer pesticide products']\nDiscussed in 7: ['compliance with environmental and public health regulations', 'changes in regulations or regulatory enforcement priorities', 'cancellation of product registrations', 'inability to obtain or maintain pesticide product registrations']"
+        }
+      },
+      "task_scores": {
+        "risk_classification": 0.0,
+        "business_summary": 100.0,
+        "consistency_check": 80.0
+      },
+      "feedback": "Multi-Task Evaluation Complete\n\nOverall Score: 54.0/100\n\nTask Scores:\n- Risk Classification: 0.0/100 (weight: 40%)\n- Business Summary: 100.0/100 (weight: 30%)\n- Consistency Check: 80.0/100 (weight: 30%)\n"
+    }
+  ]
+}
