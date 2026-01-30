@@ -10,3 +10,5 @@ env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
 [config]
 # Determine which year to evaluate
 year = "2020"
+
+# trigger build
