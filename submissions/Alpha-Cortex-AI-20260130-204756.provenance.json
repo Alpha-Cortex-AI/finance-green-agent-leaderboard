@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/alpha-cortex-ai/alpha-cortex-ai-green@sha256:ba64f231ddacd1449654fabd5f92ff365b6d198953e832ba8b24189d493c0f3e",
+    "analyst": "ghcr.io/alpha-cortex-ai/finance-purple-agent@sha256:1ac7ad70496d6a3a6ca663a5913debc727fdb4a2b7a6af1755b2311a0015679a",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-30T20:47:56Z",
+  "github_actions": {
+    "run_url": "https://github.com/Alpha-Cortex-AI/finance-green-agent-leaderboard/actions/runs/21528236819",
+    "run_logs_url": "https://api.github.com/repos/Alpha-Cortex-AI/finance-green-agent-leaderboard/actions/runs/21528236819/logs",
+    "ref": "refs/heads/main",
+    "sha": "7b7822e53c3b3d1b4a72848e858b73afc5eacb4f",
+    "repository_url": "https://github.com/Alpha-Cortex-AI/finance-green-agent-leaderboard",
+    "workflow_ref": "Alpha-Cortex-AI/finance-green-agent-leaderboard/.github/workflows/run-scenario.yml@refs/heads/main",
+    "workflow_sha": "7b7822e53c3b3d1b4a72848e858b73afc5eacb4f"
+  }
+}
