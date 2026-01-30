@@ -1,16 +1,12 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019bc61d-4444-7751-8685-72befcd0336d"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019c1052-e485-76c3-81ba-1af84be69b4a"
+name = "analyst"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}" }
 
 [config]
-# Add your assessment config here
+# Determine which year to evaluate
+year = "2020"
